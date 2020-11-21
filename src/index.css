@@ -7,7 +7,89 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.title-box {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  padding-top: 2em;
+}
+
+.title {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.root {
+  width: 100vw;
+  height: 100vh;
+  flex: 1;
+  background-color: black;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2013/08/20/136427/d7e1775aa35bc163f6e64d753835de04-500.jpg)
+}
+
+.teams {
+  flex: 1;
+  width: 90vw;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.team-pole {
+  width: 40vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 1%;
+  background-color: rgba(245,245,245, 0.5);
+  elevation: 50deg;
+  display: flex;
+}
+
+.team-name-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em 0.5em;
+}
+
+.team-name {
+  font-size: 16px;
+  color: black;
+  padding: 0.5em 0.5em;
+}
+
+.heroes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heroe {
+  width: 15vw;
+  height: 15vh;
+  margin-left: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+
+.heroe-name {
+  font-size: 0.5em;
+  color: black
 }

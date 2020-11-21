@@ -4,28 +4,18 @@ import { makeStyles } from "@material-ui/core/styles";
 import Heroe from "./Heroe";
 import GridListTile from '@material-ui/core/GridListTile';
 import ListSubheader from '@material-ui/core/ListSubheader';
+import "../App.css";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
-  },
-  gridList: {
-    width: 500,
-    height: 450,
-  },
 }));
 
 const ListUI = (props) => {
   const classes = useStyles();
 
   return (
-    <GridList cellHeight={180} className={classes.gridList}>
-        <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
-          <ListSubheader component="div">{props.team.name}</ListSubheader>
+    <GridList className="heroes">
+        <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }} className="team-name-box">
+          <div className="team-name"><span>{props.team.name}</span></div>
         </GridListTile>
 
 
