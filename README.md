@@ -2,10 +2,10 @@ Dota 2 is a multiplayer online battle arena (MOBA) video game and is the most-pl
 There is a main screen where we see the heroes that were randomly selected to the match. Every refresh of the screen should randomly picked heores for the match. 
 
 Team Selection constrains:
--Each team should include 2 heroes with a role of Support
--Each team should include 1 hero with a role of Carry
--Each team should include 1 hero with a role of Nuker
--Each team should include 1 hero with a role of Disabler
+-Each team should include 2 heroes with a role of Support<br />
+-Each team should include 1 hero with a role of Carry<br />
+-Each team should include 1 hero with a role of Nuker<br />
+-Each team should include 1 hero with a role of Disabler<br />
 
 ## Available Scripts
 
